@@ -1,0 +1,2 @@
+schemas:
+  $ref: './schemas/index.yml'
