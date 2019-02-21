@@ -31,4 +31,5 @@ function watch() {
   gaze.on('added', (watcher) => restart());
   gaze.on('removed', (watcher) => restart());
 }
+multi_file();
 watch();
