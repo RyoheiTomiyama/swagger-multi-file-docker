@@ -10,6 +10,7 @@ services:
     build: ./swagger-watch
     volumes:
       - ./swagger-watch:/app
+      - /app/node_modules
       - ./src:/src
       - ./docs/swagger.yml:/docs/swagger.yml
     working_dir: /app
